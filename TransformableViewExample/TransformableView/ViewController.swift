@@ -38,9 +38,6 @@ class ViewController: UIViewController {
     @IBAction func confirmImgV(_ sender: UIButton) {
         self.imgV?.removePoint()
     }
-    
-//    @objc func panAction(_ panGes:UIPanGestureRecognizer) {
-//        print(panGes.translation(in: self.view))
-//    }
+
 }
 
