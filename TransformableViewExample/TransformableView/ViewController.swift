@@ -28,7 +28,9 @@ class ViewController: UIViewController {
         
         self.imgV = SWTransformableImgV(image: UIImage.init(named: "airline.png"))
         self.imgV?.center = self.view.center
+        //change the control point color, default is white.
         self.imgV?.pointColor = UIColor.yellow
+        //change the control point width, default is 20.
         self.imgV?.controlPointDiameter = 30
         self.view.addSubview(imgV!)
     }
