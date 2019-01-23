@@ -1,0 +1,7 @@
+#project '/TransformableView.xcodeproj'
+platform :ios, '8.0'
+use_frameworks!
+
+target 'TransformableView' do
+pod 'SWTransformableImgV', '~> 0.0.1'
+end
