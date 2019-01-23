@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "SWTransformableImgV"
   s.version      = "0.0.1"
-  s.summary      = "A short description of SWTransformableImgV."
+  s.summary      = "init a transformable imageView"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,9 +25,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+init a transformable imageView
                    DESC
 
-  s.homepage     = "http://EXAMPLE/SWTransformableImgV"
+  s.homepage     = "https://github.com/JianBinWu/SWTransformableImgV"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -52,7 +53,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "0ed_100007694296_StevenWu" => "0ed_100007694296_StevenWu@git.cloud.tencent.com" }
+  s.author             = { "StevenWu" => "121805186@qq.com" }
   # Or just: s.author    = "0ed_100007694296_StevenWu"
   # s.authors            = { "0ed_100007694296_StevenWu" => "0ed_100007694296_StevenWu@git.cloud.tencent.com" }
   # s.social_media_url   = "http://twitter.com/0ed_100007694296_StevenWu"
@@ -79,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/SWTransformableImgV.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/JianBinWu/SWTransformableImgV", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,8 +91,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "Sources/*.swift"
+  #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
